@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: gainsboro;
+}
+h1{
+    font-size: 45px;
+    color: hsl(203, 94%, 44%);
+}
+form{
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    border-style: none;
+    
+}
+form input{
+    padding: 10px 20px 10px 20px;
+    line-height: 20px;
+}
+form input:hover{
+    border-color: darkblue;
+}
+button.btn{
+    padding: 10px 80px 10px 80px;
+    background-color: blue;
+    color: whitesmoke;
+    font-size: 20px;
+    border-radius:10px ;
+}
+form a{
+    text-decoration: none;
+    color: blue;
+    letter-spacing: 2px;
+}
+form a:hover{
+    text-decoration: underline blue;
+}
+

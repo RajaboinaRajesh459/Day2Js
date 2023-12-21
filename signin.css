@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
+    text-align: center;
+}
+h1{
+    font-size: 45px;
+    color: hwb(203 3% 15%);
+}
+form{
+    display: inline-block;
+    width: 500px;
+    height: 700px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    border-style: none;
+    
+}
+form input{
+    padding: 10px 10px;
+}
+form input:hover{
+    border-color: cornflowerblue;
+}
+input.demo{
+    padding: 10px 95px 10px 95px;
+}
+button{
+    background-color: green;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px 50px 10px 50px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+}
+h4{
+    font-size: 20px;
+    font-weight: lighter;
+    color: cornflowerblue;
+    cursor: pointer;
+}
+p a{
+    color: blue;
+    text-decoration: none;
+}
+p a:hover{
+    text-decoration: underline;
+}
